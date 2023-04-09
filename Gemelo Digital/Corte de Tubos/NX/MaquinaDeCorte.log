@@ -1,0 +1,1206 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V1899
+! INFO-      
+! INFO-     Start of Translation: 9-APR-2023  1:02:55 AM
+! INFO-      
+! STATUS-   Converting Part: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\MaquinaDeCorte.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        D:\Esdek\Gemelo Digital\Corte de Tubos\NX\MaquinaDeCorte.stp
+! SUMMARY-  Date             2023-04-09T00:54:19-05:00
+! SUMMARY-  Author           Lenovo
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v19
+! SUMMARY-  Orig_System      Autodesk Inventor 2023
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   6796
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:  11044
+! SUMMARY-  b_spline_curve_with_knots ..................................:    277
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    682
+! SUMMARY-  b_spline_surface_with_knots ................................:     54
+! SUMMARY-  cartesian_point ............................................:  43470
+! SUMMARY-  circle .....................................................:   3895
+! SUMMARY-  closed_shell ...............................................:     90
+! SUMMARY-  conical_surface ............................................:    186
+! SUMMARY-  context_dependent_shape_representation .....................:     58
+! SUMMARY-  cylindrical_surface ........................................:   2053
+! SUMMARY-  direction ..................................................:  34533
+! SUMMARY-  edge_curve .................................................:  17502
+! SUMMARY-  edge_loop ..................................................:   8206
+! SUMMARY-  ellipse ....................................................:    298
+! SUMMARY-  face_bound .................................................:   1410
+! SUMMARY-  face_outer_bound ...........................................:   6796
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     52
+! SUMMARY-  item_defined_transformation ................................:     58
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:  12445
+! SUMMARY-  manifold_solid_brep ........................................:     90
+! SUMMARY-  next_assembly_usage_occurrence .............................:     58
+! SUMMARY-  oriented_edge ..............................................:  35004
+! SUMMARY-  plane ......................................................:   4493
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  polyline ...................................................:    138
+! SUMMARY-  product ....................................................:     51
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:     51
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:     51
+! SUMMARY-  product_definition_shape ...................................:    109
+! SUMMARY-  product_related_product_category ...........................:     51
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     58
+! SUMMARY-  shape_representation .......................................:     51
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  toroidal_surface ...........................................:     10
+! SUMMARY-  trimmed_curve ..............................................:     54
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     52
+! SUMMARY-  vector .....................................................:  12445
+! SUMMARY-  vertex_point ...............................................:  11042
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         213719
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 9-APR-2023 1:02:56 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:07 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Stop
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\inicio
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Material
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteMaterial
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Sujetador
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CarroSuperior_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CarroSuperior
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\AcopleActuadorCarro
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteTubosSuperior_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteTubosInferior_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:13 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaBaseHidráulicos_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:14 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:14 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CodoHidráulicos_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:14 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaSuperiorHidráulicos_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:14 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteHidráhulicos_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:14 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN-439-B - M10x1_25(F)_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:14 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DNC-32-50---(KS)_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:14 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50---(ZR)_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:15 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Cuchilla_3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:15 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Cuchilla_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:15 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaBaseHidráulicos_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:15 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:15 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CodoHidráulicos_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:15 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaSuperiorHidráulicos_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:15 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteHidráhulicos_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:15 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN-439-B - M10x1_25(F)_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:16 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DNC-32-50---(KS)_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:16 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50---(ZR)_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:16 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CodoHidráulicos
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:16 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteElectromecánico_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Line ........................:    15
+! SUMMARY-  Arc/Circle ..................:    14
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             30
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:16 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Knutec.de - Warning, Crushing of hands, according ISO EN DIN 7010_200
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Cuchilla_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Cuchilla
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteElectromecánico
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN-439-B - M10x1.25(F)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DNC-32-50---(KS)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:17 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50---(ZR)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:18 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Main Table Assembly
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    45
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             45
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:21 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN-912 - M3x25(F)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:21 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\1460675 EMMS-ST-42-SS-SE-G2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:21 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN 934 - M8x1(F)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:21 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\1470874 EPCO-25-300_k---(1_0)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:21 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\1470874 EPCO-25-30000_z---(0)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:21 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\1470706 EPCO-25-300-3P-ST-E---(0)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              6
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:22 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50-PPV---(asm_0)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Line ........................:    41
+! SUMMARY-  Arc/Circle ..................:    27
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             71
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:22 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50-PPV---(asm_0)_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Line ........................:    41
+! SUMMARY-  Arc/Circle ..................:    27
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             71
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:22 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50-PPV---(asm_0)_CPY_CPY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Line ........................:    41
+! SUMMARY-  Arc/Circle ..................:    27
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             71
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:03:22 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\MaquinaDeCorte.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    43
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             43
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        90
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        90
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 9-APR-2023  1:03:23 AM
+! INFO-      
+STEP to UG
+! INFO-     NX STEP AP203 - V1899
+! INFO-      
+! INFO-     Start of Translation: 9-APR-2023  1:10:19 AM
+! INFO-      
+! STATUS-   Converting Part: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\MaquinaDeCorte.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        D:\Esdek\Gemelo Digital\Corte de Tubos\NX\MaquinaDeCorte.stp
+! SUMMARY-  Date             2023-04-09T01:09:58-05:00
+! SUMMARY-  Author           Lenovo
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v19
+! SUMMARY-  Orig_System      Autodesk Inventor 2023
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   6796
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:  11030
+! SUMMARY-  b_spline_curve_with_knots ..................................:    277
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    682
+! SUMMARY-  b_spline_surface_with_knots ................................:     54
+! SUMMARY-  cartesian_point ............................................:  43414
+! SUMMARY-  circle .....................................................:   3881
+! SUMMARY-  closed_shell ...............................................:     90
+! SUMMARY-  conical_surface ............................................:    186
+! SUMMARY-  context_dependent_shape_representation .....................:     58
+! SUMMARY-  cylindrical_surface ........................................:   2053
+! SUMMARY-  direction ..................................................:  34505
+! SUMMARY-  edge_curve .................................................:  17502
+! SUMMARY-  edge_loop ..................................................:   8206
+! SUMMARY-  ellipse ....................................................:    298
+! SUMMARY-  face_bound .................................................:   1410
+! SUMMARY-  face_outer_bound ...........................................:   6796
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     52
+! SUMMARY-  item_defined_transformation ................................:     58
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:  12445
+! SUMMARY-  manifold_solid_brep ........................................:     90
+! SUMMARY-  next_assembly_usage_occurrence .............................:     58
+! SUMMARY-  oriented_edge ..............................................:  35004
+! SUMMARY-  plane ......................................................:   4493
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  polyline ...................................................:    123
+! SUMMARY-  product ....................................................:     51
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:     51
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:     51
+! SUMMARY-  product_definition_shape ...................................:    109
+! SUMMARY-  product_related_product_category ...........................:     51
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     58
+! SUMMARY-  shape_representation .......................................:     51
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  toroidal_surface ...........................................:     10
+! SUMMARY-  trimmed_curve ..............................................:     48
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     52
+! SUMMARY-  vector .....................................................:  12445
+! SUMMARY-  vertex_point ...............................................:  11042
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         213586
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 9-APR-2023 1:10:20 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:29 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Stop215010
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:30 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\inicio215009
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:30 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Material215008
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:30 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteMaterial215007
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:30 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Sujetador215006
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:30 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CarroSuperior_1215005
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:30 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CarroSuperior215004
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:30 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\AcopleActuadorCarro215003
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:30 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteTubosSuperior_CPY215002
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteTubosInferior_CPY215001
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaBaseHidráulicos_CPY_CPY215000
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos_CPY_CPY214999
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CodoHidráulicos_CPY_CPY214998
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaSuperiorHidráulicos_CPY_CPY214997
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteHidráhulicos_CPY_CPY214996
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN-439-B - M10x1_25(F)_CPY_CPY214995
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DNC-32-50---(KS)_CPY_CPY214994
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:31 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50---(ZR)_CPY_CPY214993
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:32 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Cuchilla_3214991
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:32 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Cuchilla_2214990
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:32 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaBaseHidráulicos_CPY214989
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:32 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos_CPY214988
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:32 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CodoHidráulicos_CPY214987
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:32 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaSuperiorHidráulicos_CPY214986
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:32 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteHidráhulicos_CPY214985
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:32 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN-439-B - M10x1_25(F)_CPY214984
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:33 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DNC-32-50---(KS)_CPY214983
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:33 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50---(ZR)_CPY214982
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:33 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\CodoHidráulicos214980
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:33 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteElectromecánico_1214979
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:33 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Knutec.de - Warning, Crushing of hands, according ISO EN DIN 7010_200214978
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:33 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Cuchilla_1214977
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:34 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos_2214976
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:34 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Cuchilla214975
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:34 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos_1214974
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:34 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\PlacaMediaHidráulicos214973
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:34 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\SoporteElectromecánico214972
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:34 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN-439-B - M10x1.25(F)214971
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:34 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DNC-32-50---(KS)214970
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:34 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50---(ZR)214969
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:35 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\Main Table Assembly214967
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    45
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             45
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:37 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN-912 - M3x25(F)214966
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:38 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\1460675 EMMS-ST-42-SS-SE-G2214965
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:38 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\DIN 934 - M8x1(F)214964
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:38 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\1470874 EPCO-25-300_k---(1_0)214963
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:38 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\1470874 EPCO-25-30000_z---(0)214962
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:38 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\1470706 EPCO-25-300-3P-ST-E---(0)214961
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              6
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:38 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50-PPV---(asm_0)214968
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Line ........................:    41
+! SUMMARY-  Arc/Circle ..................:    27
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             71
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:38 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50-PPV---(asm_0)_CPY214981
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Line ........................:    41
+! SUMMARY-  Arc/Circle ..................:    27
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             71
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:38 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\163321 DNC-32-50-PPV---(asm_0)_CPY_CPY214992
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Line ........................:    41
+! SUMMARY-  Arc/Circle ..................:    27
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             71
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-APR-2023  1:10:39 AM
+! INFO-     Filing Part ..: D:\Esdek\Gemelo Digital\Corte de Tubos\NX\MaquinaDeCorte.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    43
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             43
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        90
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        90
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 9-APR-2023  1:10:39 AM
+! INFO-      
