@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"32-17092015-114667";"";
+"REFERENCE";"80x80-1000";"";
+"TraceParts.PartTitle";"Aluminium profile 80x80";"";
+"TraceParts.InstanceId";"32-17092015-11466796N5C2DKLWPT5BRIMN3X7UC23";"";
+"SUPPLIER";"BÖMA Maschinenbau und Automatisierung GmbH";"";
+"DESIGN";"Aluminium profile 80x80";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.8";"";
