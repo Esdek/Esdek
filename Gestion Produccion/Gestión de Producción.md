@@ -15,20 +15,22 @@ Adicionalmente, se identifican los siguientes procesos necesarios para la fabric
 ![5](TablaProcesos.png)
 
 Dado que se comparten una gran cantidad de procesos que pueden ser realizados con las mismas máquinas y equipos de manufactura, se decide fabricar los tres productos de forma simultánea.
+<br/> Para el cálculo de tiempos, se tendrá en cuenta el siguiente orden de procesos:
+![6](MapaProcesos.png)
 
 ### Entrada y salida de material
 
-Con una producción mensual de 200 unidades de cada producto, se requiere:
-- 67 láminas de MDF 1.2 x 185 x 244 cm (se obtienen 3 sets de 3 productos de cada lámina)
-- 200 tubos de aluminio de 0.5mm x 1m (se obtiene 1 set de 3 productos de cada tubo)
-- 800 cajas de cartón
-- 61 litros de laca
-- 21 litros de pintura
-- 20 kg pegamento PVAc (100g por cada set de productos)
-- 9600 tarugos de madera 6 x 30 mm (48 por cada set de productos)
-- 3200 tornillos #7 x 3/4" (16 por cada set de productos)
+Con una producción mensual de 400 unidades de cada producto, se requiere:
+- 134 láminas de MDF 1.2 x 185 x 244 cm (se obtienen 3 sets de 3 productos de cada lámina)
+- 400 tubos de aluminio de 0.5mm x 1m (se obtiene 1 set de 3 productos de cada tubo)
+- 1200 cajas de cartón
+- 120 litros de laca
+- 80 litros de pintura
+- 40 kg pegamento PVAc (100g por cada set de productos)
+- 19200 tarugos de madera 6 x 30 mm (48 por cada set de productos)
+- 6400 tornillos #7 x 3/4" (16 por cada set de productos)
 
-Como salida, se tiene mensualmente una entrega de 2400 productos, 800 de cada tipo.
+Como salida, se tiene mensualmente una entrega de 1200 productos, 400 de cada tipo.
 
 ### Tiempos estimados de producción por producto (planta original)
 
@@ -236,11 +238,11 @@ Se considera una cantidad de 20 días de trabajo por mes. Cada día se trabaja u
 <br/> Tiempo disponible al día: 3600*(9-1-0.5) = 27000 segundos
 
 <br/>  
-<br/> Con una demanda de 40 unidades de cada producto por día, se obtiene el takt time, que es igual para los tres productos (que se fabrican simultáneamente):
+<br/> Con una demanda de 20 unidades de cada producto por día, se obtiene el takt time, que es igual para los tres productos (que se fabrican simultáneamente):
 
-<br/> T = 27000/40 = 675 segundos/producto
+<br/> T = 27000/20 = 1350 segundos/producto
 
-<br/> Es decir, cada 675 segundos debe estar listo un nuevo set de productos para producir la cantidad que se necesita para satisfacer la demanda.
+<br/> Es decir, cada 1350 segundos debe estar listo un nuevo set de productos para producir la cantidad que se necesita para satisfacer la demanda.
 
 ### Cálculo de KPI
 
