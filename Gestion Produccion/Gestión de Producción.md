@@ -15,20 +15,22 @@ Adicionalmente, se identifican los siguientes procesos necesarios para la fabric
 ![5](TablaProcesos.png)
 
 Dado que se comparten una gran cantidad de procesos que pueden ser realizados con las mismas máquinas y equipos de manufactura, se decide fabricar los tres productos de forma simultánea.
+<br/> Para el cálculo de tiempos, se tendrá en cuenta el siguiente orden de procesos:
+![6](MapaProcesos.png)
 
 ### Entrada y salida de material
 
-Con una producción mensual de 800 unidades de cada producto, se requiere:
-- 267 láminas de MDF 1.2 x 185 x 244 cm (se obtienen 3 sets de 3 productos de cada lámina)
-- 800 tubos de aluminio de 0.5mm x 1m (se obtiene 1 set de 3 productos de cada tubo)
-- 2400 cajas de cartón
-- 242 litros de laca
-- 85 litros de pintura
-- 80 kg pegamento PVAc (100g por cada set de productos)
-- 38400 tarugos de madera 6 x 30 mm (48 por cada set de productos)
-- 12800 tornillos #7 x 3/4" (16 por cada set de productos)
+Con una producción mensual de 400 unidades de cada producto, se requiere:
+- 134 láminas de MDF 1.2 x 185 x 244 cm (se obtienen 3 sets de 3 productos de cada lámina)
+- 400 tubos de aluminio de 0.5mm x 1m (se obtiene 1 set de 3 productos de cada tubo)
+- 1200 cajas de cartón
+- 120 litros de laca
+- 80 litros de pintura
+- 40 kg pegamento PVAc (100g por cada set de productos)
+- 19200 tarugos de madera 6 x 30 mm (48 por cada set de productos)
+- 6400 tornillos #7 x 3/4" (16 por cada set de productos)
 
-Como salida, se tiene mensualmente una entrega de 2400 productos, 800 de cada tipo.
+Como salida, se tiene mensualmente una entrega de 1200 productos, 400 de cada tipo.
 
 ### Tiempos estimados de producción por producto (planta original)
 
@@ -50,34 +52,32 @@ Para el corte manual se realiza con una sierra sin fin. En este proceso, un trab
 
 <br/>  
 <br/>  
-En el proceso de pintado (dos capas), un operario suele demorarse 150 segundos por metro cuadrado. Se tiene en cuenta que son aproximadamente 14 piezas por producto, con un área a a pintar de 0.86 metros cuadrados (0.43 cada lado). El cambio entre piezas tarda 10 segundos, y se considera un tiempo de setup de 120 segundos que incluye preparar la pintura y herramientas, así como disponer las piezas. Se tiene en cuenta también que para cada pieza, el proceso de pintado de bordes tarda en promedio 15 segundos. Además, se otorgan 15 minutos de secado (recovery time).
+En el proceso de pintado (dos capas), un operario suele demorarse 150 segundos por metro cuadrado. Se tiene en cuenta que son aproximadamente 14 piezas por producto, con un área a a pintar de 0.86 metros cuadrados (0.43 cada lado).Se considera un tiempo de setup de 120 segundos que incluye preparar la pintura y herramientas, así como disponer las piezas. Se tiene en cuenta también que para cada pieza, el proceso de pintado de bordes tarda en promedio 15 segundos. Además, se otorgan 15 minutos de secado por cada cara , pero durante este tiempo se puede pintar una cara del siguiente producto. Haciendo los cálculos, se encuentra que esto equivale a un tiempo de recuperación total por producto de 928 segundos.
 <br/>  
 <br/> Tiempo de pintado: 0.86*150 = 129 segundos
 <br/> Tiempo de pintado (bordes): 14*15 = 210 segundos
-<br/> Th: 14 * 10 = 140 segundos
-<br/> Tiempo de ciclo: 479 segundos
+<br/> Tiempo de ciclo: 339 segundos
 <br/> Tiempo de setup: 120 segundos
-<br/> Tiempo de recuperación: 900 segundos
+<br/> Tiempo de recuperación: 928 segundos
 <br/> No. Operarios: 1
-<br/> No. Maquinas: 0
+<br/> No. Maquinas: 1
 <br/>  
 <br/> La pistola de pintura debe limpiarse cada turno, es decir, tras 7.5 horas de uso. El tiempo de limpiado es de aproximadamente 15 minutos. Así, obtenemos:
 <br/> MTBF: 27000 segundos
 <br/> MTTR: 900 segundos
 <br/> Disponibilidad: 96.8%
 
-<br/>
+<br/>  
 <br/>  
 Para el lacado, se tienen los mismos tiempos de cambio de pieza, setup, y recuperación de la operación de pintado. En cuanto al tiempo de lacado, es de 125 segundos por metro cuadrado. El área es la misma, de donde resulta:
 <br/>  
 <br/> Tiempo de lacado: 0.86*125 = 108 segundos
 <br/> Tiempo de lacado (bordes): 14*15 = 210 segundos
-<br/> Th: 14 * 10 = 140 segundos
-<br/> Tiempo de ciclo: 458 segundos
+<br/> Tiempo de ciclo: 318 segundos
 <br/> Tiempo de setup: 120 segundos
-<br/> Tiempo de recuperación: 900 segundos
+<br/> Tiempo de recuperación: 933 segundos
 <br/> No. Operarios: 1
-<br/> No. Maquinas: 0
+<br/> No. Maquinas: 1
 <br/>  
 <br/> La pistola para lacar tiene las mismas condiciones de mantenimiento que la pistola de pintura, así:
 <br/> MTBF: 27000 segundos
@@ -181,13 +181,11 @@ El proceso de paletizado ocupa un setup time de 40 segundos en que el operario p
 
 <br/>  
 <br/>  
-Tras automatizar el corte empleando una máquina de corte láser, el tiempo de corte para los tres productos es de 339 segundos (según indica un programa simulador de corte láser, con las condiciones de material adecuadas). El setup time es el tiempo que el operario tarda ubicando la lámina de madera e iniciando el programa, lo que se estima en 60 segundos. Se propone un tiempo de recuperación de 30 segundos, en el que se retira la lámina de la máquina. Además, se considera que el operario tarda 5 segundos retirando cada pieza, lo que añade 70 segundos al proceso. Si se considera que el tiempo de corte es el mismo para cada producto, se encuentra:
+Tras automatizar el corte empleando una máquina de corte láser, el tiempo de corte para los tres productos es de 339 segundos (según indica un programa simulador de corte láser, con las condiciones de material adecuadas). El setup time es el tiempo que el operario tarda ubicando la lámina de madera e iniciando el programa, lo que se estima en 60 segundos. El tiempo que el operario tarda retirando las piezas está considerado en el tiempo de setup del pintado automatizado, por lo que el tiempo de recuperación es cero. Si se considera que el tiempo de corte es el mismo para cada producto, se encuentra:
 <br/>  
-<br/> Tiempo de corte: 113 segundos
-<br/> Th: 5 * 14 = 70 segundos
-<br/> Tiempo de ciclo: 183 segundos
+<br/> Tiempo de ciclo: 113 segundos
 <br/> Tiempo de setup: 60 segundos
-<br/> Tiempo de recuperación: 30 segundos
+<br/> Tiempo de recuperación: 0 segundos
 <br/> No. Operarios: 1
 <br/> No. Maquinas: 1
 <br/> El mantenimiento de la máquina de corte se realiza al finalizar cada turno, consiste en retirar el polvo y resíduos de grabado y limpiar los espejos y la lente, lo que tarda aproximadamente 10 minutos:
@@ -197,10 +195,14 @@ Tras automatizar el corte empleando una máquina de corte láser, el tiempo de c
 
 <br/>  
 <br/>  
-La información sobre el proceso automatizado de pintado y lacado aún no se ha calculado, pues se requiere primero la creación del gemelo digital de la máquina. Se puede afirmar desde ahora que se empleará una máquina y un operario para la misma.
+Para los procesos de lacado y pintado automatizados, se tiene un tiempo de proceso de 47 segundos para cada set de tres productos por cada cara. Se considera un tiempo de secado por cara de 15 minutos, un setup time de un minuto (tiempo de transporte de piezas de corte láser a pintado, o de pintado a lacado), y un tiempo de 150 segundos para darle la vuelta a las piezas. Adicionalmente, mientras se seca una cara de un set de productos se puede pintar o lacar una cara del siguiente. Haciendo los cálculos, se obtiene para cada producto:
 <br/>  
+<br/> Tiempo de ciclo: 94/3 + 150/3 = 81 segundos
+<br/> Tiempo de setup: 20 segundos
+<br/> Tiempo de recuperación: 176 segundos
 <br/> No. Operarios: 1
 <br/> No. Maquinas: 1
+<br/>  
 
 
 <br/>  
@@ -236,11 +238,11 @@ Se considera una cantidad de 20 días de trabajo por mes. Cada día se trabaja u
 <br/> Tiempo disponible al día: 3600*(9-1-0.5) = 27000 segundos
 
 <br/>  
-<br/> Con una demanda de 40 unidades de cada producto por día, se obtiene el takt time, que es igual para los tres productos (que se fabrican simultáneamente):
+<br/> Con una demanda de 20 unidades de cada producto por día, se obtiene el takt time, que es igual para los tres productos (que se fabrican simultáneamente):
 
-<br/> T = 27000/40 = 675 segundos/producto
+<br/> T = 27000/20 = 1350 segundos/producto
 
-<br/> Es decir, cada 675 segundos debe estar listo un nuevo set de productos para producir la cantidad que se necesita para satisfacer la demanda.
+<br/> Es decir, cada 1350 segundos debe estar listo un nuevo set de productos para producir la cantidad que se necesita para satisfacer la demanda.
 
 ### Cálculo de KPI
 
